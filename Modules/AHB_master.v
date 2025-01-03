@@ -46,7 +46,7 @@ reg [1:0] present_state,next_state;
 parameter idle = 2'b00;//Device boots up 
 parameter s1 = 2'b01;//Read Operation
 parameter s2 = 2'b10;//Write operation
-parameter s3 = 2'b11;//Changes are made wether write or read operation 
+parameter s3 = 2'b11;//Changes are made whether write or read operation 
 
 //defining present_state
  always@(posedge (Hclk))
